@@ -8,24 +8,28 @@ body{
     left: 30px;
     top: 30px; */
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: space-between;
     align-items: center;
-    padding: 0px;
+    /* padding: 0px; */
     margin-left: 150px;
     margin-right: 150px;
+    margin-top: 30px;
 }
 .nav-section {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
     gap: 48px;
-    margin: 10px 0px;
+    /* margin: 10px 0px; */
     text-decoration: none;
+    padding-right: 80px;
+    list-style: none;
+
 }
 .banner {
     display: flex;
-    flex-direction: space-around;
+    flex-direction: row;
     width: 1140px;
     height: 461px;
     margin-top: 120px;
@@ -37,7 +41,10 @@ body{
 .banner-section {
     display: flex;
     flex-direction: column;
-    padding-top: 162px;
+    /* padding-top: 162px; */
+}
+.our{ 
+    margin-top: 120px;
 }
 .plant {
     margin-left: 150px;
@@ -47,10 +54,19 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* width: 1140px;
+    height: 138px; */
+    /* margin-bottom: 150px; */
+    gap: 0;
 }
-.card {
+.card-section {
+    gap: 20px;
     display: grid;
     /* grid-template-rows: repeat(4, 1fr); */
+    /* grid-template-columns: 270px 270px 270px 270px; */
+    grid-template-columns: repeat(4, 270px);
+    margin-top: 49px;
+
 }
 .flower {
     display: flex;
@@ -82,48 +98,63 @@ body{
     width: 1440px;
     height: 4612px;
 } */
+.deals{
+    margin-top: 133.88px;
+}
+.latest {
+    display: flex;
+    flex-direction: row;
+    width: 1140px;
+    height: 423.13px;
+    gap: 28px;
+    margin-top: 120px;
+}
+.latest-deals {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
 .bloom {
     background-image: url(./assets/deal-bloom.png);
     background-repeat: no-repeat;
+    width: 366.22px;
+    height: 206px;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
-    width: 366.22px;
-    height: 206px;
-    padding-top: 55px;
-    border-radius: 48px;
-    /* padding: 65px 47.22px 114px 49px; */
+    /* padding-top: 55px;
+    border-radius: 0px;  */
 
 }
 .ana {
     background-image: url(./assets/deal-ana.png);
     background-repeat: no-repeat;
+    width: 366.22px;
+    height: 206px;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
-    width: 366.22px;
-    height: 206px;
-    padding-top: 55px;
-    border-radius: 48px;
-    /* padding: 65px 47.22px 114px 49px; */
+
+    /* padding-top: 55px;
+    border-radius: 0px;  */
 
 }
 .zabo {
-    background-image: url(./assets/deal-zabo.png);
+    background-image:url(./assets/deal-zabo.png);
     background-repeat: no-repeat;
+    width: 753px;
+    height: 423.13px;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
-    width: 753px;
-    height: 423.13px;
-    padding-top: 200px;
-    border-radius: 48px;
-    /* padding: ; */
+    /* padding-top: 200px;
+    border-radius: 0px;  */
 
 }
+
 .colorful {
     background-image: url(./assets/news-letter-bg.png);
     background-repeat: no-repeat;
@@ -135,6 +166,7 @@ body{
     flex-direction: row;
     align-items: center;
     padding-left: 600px;
+    margin-top: 120px;
 }
 .logo {
     display: flex;
@@ -178,3 +210,60 @@ body{
     width: 135px;
     height: 82px;
 }
+.btn {
+    background: rgb(233, 90, 8);
+    width: 270px;
+    height: 50px;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+.btn2 {
+    background: rgb(233, 90, 8);
+    width: 186px;
+    height: 50px;
+    border: none;
+}
+input {
+    width: 644px;
+    height: 50px;
+    border: none;
+}
+.grid {
+    display: grid;
+}
+
+p {
+    font-family: inter;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgb(0, 0, 0, 0.5);
+}
+.color{
+    color: rgb(233, 90, 8);
+}
+.color2 {
+    color: rgb(255, 255, 2555);
+}
+.text-size {
+    font-family: Noto Serif;
+    font-size: 65px;
+    font-weight: 700;
+
+}
+.text-size2 {
+    font-family: Noto Serif;
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+
+
+
+/* medium device responsive */
+@media  screen and (min-width: 576px) and (max-width:992px){
+
+
+
+}
+    
