@@ -165,7 +165,7 @@
             border-radius: 0.625rem 0.625rem 0.625rem 0.625rem;
             padding-top: 3.75rem;
         }
-        .zabo {
+        .zoo {
             background-image:url(./assets/deal-zabo.png);
             background-repeat: no-repeat;
             width: 47.0625rem;
@@ -322,7 +322,7 @@
             } 
             .banner {
                 flex-direction: column;
-                margin-bottom: 13rem;
+                margin-bottom: 1rem;
                 gap: 1.75rem;
             }
             /* .banner-section {
@@ -338,12 +338,20 @@
                 letter-spacing: 0%;
                 margin: 0rem;
             }
+            .banner-section p, .plant-section p, .flower-section ul li p, .deals-section p, .logo p {
+                font-family: Inter;
+                font-size: 0.875rem;
+                font-weight: 400;
+                line-height: 1.1rem;
+                letter-spacing: 0%;
+                color: rgb(0, 0, 0, 0.5);
+            }
             .next {
                 order: -1;
             }
-            /* .our {
-                margin-bottom: 0rem;
-            } */
+            .our {
+                margin-top: rem;
+            }
              .omg{
                 width:  auto;
                 height: 14.25rem; 
@@ -363,7 +371,6 @@
                 flex-direction: column;
                 margin-top: 2.56rem;
                 gap: 1.25rem;
-                padding-bottom: 25rem;
             }
             .flower-section h1 br{
                 display: none;
@@ -383,21 +390,24 @@
                 padding-bottom: 1rem;
              }
              .deals {
-                margin-top: 8.93rem;
                 padding-bottom: 30rem;
+                 
+                padding-top: 7rem;
+                
 
              }
              .deals-section p br{
                 display: none;
              }
-             .bloom, .zabo {
-               width: 22.875rem;
-               height: 12.875rem;
-        
-            } 
-             .latest{
+              .latest .bloom, .latest .zoo, .latest .ana {
+                width: 23rem;
+                height: 13rem;
+                background-size: 400px 300px;
+                
+              }
+                .latest{
                 display: grid;
-                grid-template-columns: repeat(1, 25rem);
+                grid-template-columns: repeat(1, 1fr);
              }
              .colorful {
                 width: 24.5625rem;
@@ -428,7 +438,7 @@
                 flex-direction: row;
             }
             .footer-section{
-                height: 60rem;
+                 height: 80rem; 
                 flex-direction: column;
                 justify-content: start;
                 /* margin-top: 3.125rem; */
@@ -455,18 +465,23 @@
                 margin: 0rem;
             }
             .foot2, .foot1{
-                padding-top: 2rem;
-                margin: 0rem;
-                 display: flex; 
+                 padding-top: 2rem;
                  flex-direction: column;
-                 justify-content: flex-start;
-                align-items: start; 
-                gap: 2rem;
+                 padding-right: 4rem; 
+                 /*margin: 0rem; */
+                 /* display: flex; 
+                 justify-content: center;
+                align-items: center;  */
+                gap: 5rem;
+                /* width: 5.3125rem;
+                height: 9.25rem; */
                 
             }
             .footer3 {
+                flex-direction: row;
+                justify-content: center;
                 padding-top: 2rem;
-                margin: 0rem;
+                margin-left: 5rem;
                 gap: 1.5rem;
         }
         
